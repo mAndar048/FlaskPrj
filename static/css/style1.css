@@ -1,0 +1,30 @@
+/* style1.css */
+
+/* Centering the heading */
+h2 {
+    text-align: center;
+}
+
+/* Styling form elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.bottom {
+    text-align: center;
+}
+
+/* Centering the logo */
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.logo {
+    max-width: 200px; /* Adjust the size of the logo */
+    height: auto;
+}

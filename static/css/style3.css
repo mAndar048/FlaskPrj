@@ -1,0 +1,22 @@
+/* style3.css */
+
+/* Centering the heading */
+h1 {
+    text-align: center;
+}
+
+/* Styling user profile section */
+.row {
+    text-align: center;
+}
+
+/* Centering the logo */
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.logo {
+    max-width: 200px; /* Adjust the size of the logo */
+    height: auto;
+}

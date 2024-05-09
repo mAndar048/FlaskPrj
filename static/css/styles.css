@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Navigation styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Aligning the links to the center */
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 24px; /* Making the font size bigger */
+}
+
+ul li a:hover {
+    color: #0056b3;
+}
+
+/* Action text styles */
+.action-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* Paragraph styles */
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Grid styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.login-box, .register-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2, .register-box h2 {
+    text-align: center;
+}
+
+.login-box form, .register-box form {
+    margin-top: 20px;
+}
